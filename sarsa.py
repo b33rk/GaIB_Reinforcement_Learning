@@ -5,10 +5,10 @@ class SARSA:
     def __init__(self, Q, R, exploration_proba=1, gamma=0.99, min_exploration_proba = 0.01, exploration_decreasing_decay = 0.001):
         self.Q = Q
         self.R = R
-        self.exploration_proba = exploration_proba
-        self.gamma = gamma
-        self.min_exploration_proba = min_exploration_proba
-        self.exploration_decreasing_decay = exploration_decreasing_decay
+        self.exploration_proba = 1 if exploration_proba == -1 else exploration_proba
+        self.gamma = 0.99 if gamma == -1 else gamma
+        self.min_exploration_proba = 0.01 if min_exploration_proba == -1 else min_exploration_proba
+        self.exploration_decreasing_decay = 0.001 if exploration_proba == -1 else exploration_decreasing_decay
         
     def next(self, position):
         current_position = position

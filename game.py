@@ -79,6 +79,8 @@ class Game:
             print("Keep playing!")
 
     def playGame(self, n_episodes=10000, max_iter_episode=100):
+        n_episodes = 10000 if n_episodes == -1 else n_episodes
+        max_iter_episode = 100 if max_iter_episode == -1 else max_iter_episode
         if (self.r_learning):
             print("Q matrix before training:")
             print(self.r_learning.Q)

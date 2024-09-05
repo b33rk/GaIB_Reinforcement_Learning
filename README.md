@@ -1,22 +1,6 @@
-Supervised Learning (Bagian 2)</p>
-[v] KNN </p>
-[v] PolyReg </p>
-[ ] Gaussian Naive Bayes (Tidak diisi karena regresi)</p>
-[v] CART</p>
-[v] SVM</p>
-[v] ANN</p>
-Bonus yang diimplementasikan:
-- Polynomial dan rbf kernel pada SVM Regression
-- Tanh activation function pada ANN
-- Menggunakan automatic differentation saat back propagation pada ANN
-- BONUS 1 - Implementasi Gradient Boost dan XGBoost
-
-Unsupervised Learning (Bagian 3)</p>
-[v] K-MEANS</p>
-[v] DBSCAN</p>
-[v] PCA</p>
-Bonus yang diimplementasikan:
-- Inisialisasi k-means++ pada K-MEANS
+Cara Penggunaan</p>
+1. Pastikan path direktori berada di repositori ini.
+2. Jalankan command "python main.py" pada terminal.
 
 Reinforcement Learning (Bagian 4)</p>
 [v] Q-LEARNING</p>
